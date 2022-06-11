@@ -7,42 +7,43 @@
 
 body {
   margin: 0;
-  background-color: #282D35;
+  background-color: #282d35;
   height: 100vh;
 }
 
 nav {
   display: flex;
   align-items: center;
-  background-color: #21222A;
+  background-color: #21222a;
   height: 90px;
   padding: 30px 25px;
 }
 
-.nav--logo-text, .nav--logo-title {
+.nav--logo-text,
+.nav--logo-title {
   margin: 0;
 }
 
 .nav--logo-text {
   margin-right: auto;
-  color: #61DAFB;
+  color: #61dafb;
   font-weight: 700;
   font-size: 22px;
 }
 
 .nav--title {
-  color: #DEEBF8;
+  color: #deebf8;
   font-weight: 600;
 }
 
 .nav--icon {
-  width:45px;
+  width: 45px;
   margin-right: 10px;
 }
 
 main {
   padding: 57px 27px;
-  color: #FFFFFF;
+  color: #fff;
   background: url('./react-icon-large.png') no-repeat right 75%;
 }
 
@@ -63,6 +64,6 @@ main {
 }
 
 .main--facts > li::marker {
-  color: #61DAFB;
+  color: #61dafb;
   font-size: 1.4rem;
 }
