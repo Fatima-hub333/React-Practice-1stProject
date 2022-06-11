@@ -36,12 +36,14 @@ nav {
 }
 
 .nav--icon {
+  width:45px;
   margin-right: 10px;
 }
 
 main {
   padding: 57px 27px;
   color: #FFFFFF;
+  background: url('./react-icon-large.png') no-repeat right 75%;
 }
 
 .main--title {
