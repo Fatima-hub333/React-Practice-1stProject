@@ -7,10 +7,8 @@
 
 body {
   margin: 0;
-}
-.container {
-  background-color: black;
-  color: white;
+  background-color: #282D35;
+  height: 100vh;
 }
 
 nav {
@@ -32,11 +30,32 @@ nav {
   font-size: 22px;
 }
 
-.nav--logo-title {
+.nav--title {
   color: #DEEBF8;
   font-weight: 600;
 }
 
 .nav--icon {
   margin-right: 10px;
+}
+
+main {
+  padding: 57px 27px;
+  color: #FFFFFF;
+}
+
+.main--title {
+  margin: 0;
+  font-size: 39.06px;
+  letter-spacing: -0.05em;
+}
+
+.main--facts {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.main--facts > li {
+  line-height: 19px;
+  padding-block: 10px;
 }
